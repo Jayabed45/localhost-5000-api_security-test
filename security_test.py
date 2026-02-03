@@ -47,7 +47,6 @@ class SecurityAuditor:
         print(f"\n{Colors.HEADER}--- Setting up Test Users ---{Colors.ENDC}")
         # Create/Login Admin
         self._ensure_user(self.admin_creds, "admin")
-        # Create/Login User (Need a way to create regular user, assuming /auth/register or similar if exists, 
        
         # NOTE: Based on API review, there is no public registration. 
         # We will assume admin token for authenticated tests.
