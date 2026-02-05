@@ -49,7 +49,7 @@ class SecurityAuditor:
         self._ensure_user(self.admin_creds, "admin")
        
         # NOTE: Based on API review, there is no public registration. 
-        # We will assume admin token for authenticated tests.
+       
         
     def _ensure_user(self, creds, role_label):
         # Try Login first
