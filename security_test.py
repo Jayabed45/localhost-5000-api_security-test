@@ -48,7 +48,7 @@ class SecurityAuditor:
         # Create/Login Admin
         self._ensure_user(self.admin_creds, "admin")
        
-        # NOTE: 
+        # 
        
         
     def _ensure_user(self, creds, role_label):
