@@ -49,7 +49,6 @@ class SecurityAuditor:
         self._ensure_user(self.admin_creds, "admin")
        
         
-       
         
     def _ensure_user(self, creds, role_label):
         # Try Login first
