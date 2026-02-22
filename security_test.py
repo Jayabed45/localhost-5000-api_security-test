@@ -49,8 +49,7 @@ class SecurityAuditor:
         self._ensure_user(self.admin_creds, "admin")
         # Create/Login User (Need a way to create regular user, assuming /auth/register or similar if exists, 
         # but based on code read, only create-admin exists or manual insertion. 
-        # For now, we'll try to use the admin account as a user or skip if no registration)
-        
+
         # NOTE: Based on API review, there is no public registration. 
         # We will assume admin token for authenticated tests.
         
